@@ -1,0 +1,16 @@
+<div *ngFor="let item of items">{{item.modelo}}>
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{item.marca}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>{{item.id}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        
+        <button mat-button>Editar</button>
+        <button mat-button>Excluir</button>
+        
+      </mat-card-actions>
+    </mat-card>
+  </div>
